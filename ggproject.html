@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Natasha's Profile</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="ggproject.css" />
+
+    <!--Prata-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet" />
+    <!--prata end-->
+    <!--Lato-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Prata&display=swap" rel="stylesheet" />
+    <!--Lato End-->
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <!--navbar end-->
+
+    <!--home-->
+    <div class="home">
+      <div class="profile">
+        <img src="img/profile photo.jpg" alt="profile photo" />
+      </div>
+      <div class="hello">
+        <h1>Hello!</h1>
+      </div>
+      <div class="Welcome">
+        <p id="login"></p>
+      </div>
+
+      <div class="button">
+        <button
+          type="button"
+          onclick="document.getElementById('login').innerHTML
+          = 'Welcome to my website. Explore  this website to get to know me more.'"
+        >
+          Sign In
+        </button>
+      </div>
+    </div>
+    <!--home end-->
+  </body>
+</html>
